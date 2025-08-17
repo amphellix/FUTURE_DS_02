@@ -7,7 +7,7 @@ This project provides a detailed visualization of sales performance data over a 
 
 # ABOUT DATASET
 The the dataset consist of  25 columns and 9,995 rows with some being string datatypes and decimal datatypes as well as datetime datatype. The dataset consists of:
-Covers sales data from 2014 to 2017 The dataset includes details like Order Date, Ship Date, Customer Name, Product Category, Sales, Profit, Discount, Quantity, Order ID, Region and others. Find the dataset; https://www.kaggle.com/datasets/mohamed38/superstoredataset
+Covers sales data from 2014 to 2017 The dataset includes details like Order Date, Ship Date, Customer Name, Product Category, Sales, Profit, Discount, Quantity, Order ID, Region and others. [Find the dataset]( https://www.kaggle.com/datasets/mohamed38/superstoredataset)
 
 # OBJECTIVES
 
