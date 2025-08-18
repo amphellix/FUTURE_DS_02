@@ -20,15 +20,11 @@ Covers sales data from 2014 to 2017 The dataset includes details like Order Date
 • To identify segments, products, or time periods with high loss values.
 • To suggest corrective actions to minimize losses and increase profit margins.
 
-# Executive Summary
-
-This dashboard provides a detailed visualization of sales performance data over a 4-year period. It breaks down total sales, profits, losses, best-selling products, sub-category performance, regional analysis, and monthly trends. The aim is to support decision-making by identifying high-performing areas and loss-making zones.
-
 # Key Metrics Overview
 
 • Total Sales: $2.3M
 • Total Profit: $286.4K (12.47% profit margin)
-• Total Loss: $156.13K (6.80% loss rate)
+• Total Loss: $156.13K (6.80% loss rate) which is equivalent to the percentae of total discount given.
 
 <img width="312" height="50" alt="image" src="https://github.com/user-attachments/assets/3f32fe05-dd29-4a43-b5b3-1f3ccc35b4ae" />
 
@@ -40,20 +36,20 @@ From the model look into the data, a few core tables were observed namely; Custo
 The following Power BI features and functionalities were utilized:
 **Data Import and Transformation**: Using Power Query to clean and shape data.
 **Relationships & Star Schema**: Establishing one-to-many relationships for efficient filtering and slicer interactions.
-**DAX Measures**: Creating KPIs like Avg_Rating_Stars, Total Sales, and Bar Color.
+**DAX Measures**: Creating KPIs like Total profits, Total Sales, and Total losses made.
 **Visualizations**: Leveraging cards, bar charts, trend lines, treemaps, tables and image visuals.
 **Drill-through and Tooltips**: Enabling detailed analysis at product and customer levels.
 **Slicers & Filters**: Allowing users to filter data by customer name, category, mode of shipping and segment
 
 # Data Modeling
 The model follows a star schema approach:
-The central Fashion fact table holds core transactional data.
+The central Orders fact table holds core transactional data.
 It connects to dimension tables like:
-Date (for time-based analysis)
-People
-Product(for data relating to the products)
-Customer
-Returns
+- Date (for time-based analysis)
+- People
+- Product(for data relating to the products)
+- Customer
+- Returns
 The report meausures table holds reusable DAX measures and logic to simplify the report-building process and enhance performance.
 This model ensures optimized relationships and efficient data retrieval for visual interactions.
 
@@ -64,9 +60,9 @@ This model ensures optimized relationships and efficient data retrieval for visu
 
 # Category and Product Performance Analysis
 • Technology is the highest contributor to both sales and profit.
-• Furniture generates relatively high sales but has very low profit, indicating potential inefficiencies or high costs
+• Furniture generates relatively high sales but has very low profit, indicating potential inefficiencies or high costs of the product category
 **The top bestselling product is Canon Image CLASS 2200 Advanced Copier which is approximately $27.45K with other best performing products like Fellowes PB500 Electric Punch, Cisco VoIP Phones, and Acco Binders**.
-• Products from Technology and Office Supplies dominate the best-seller list.
+• Products from Technology and Office Supplies dominate the best-seller product list.
 • Aligning inventory and promotions around these products can drive profitability.
 • Copiers and Phones generate the highest profits, suggesting a strategic opportunity to focus on expanding these lines.
 
