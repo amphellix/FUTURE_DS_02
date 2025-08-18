@@ -22,9 +22,9 @@ Covers sales data from 2014 to 2017 The dataset includes details like Order Date
 
 # Key Metrics Overview
 
-• Total Sales: $2.3M
-• Total Profit: $286.4K (12.47% profit margin)
-• Total Loss: $156.13K (6.80% loss rate) which is equivalent to the percentae of total discount given.
+• **Total Sales: $2.3M**
+• **Total Profit: $286.4K (12.47% profit margin)**
+• **Total Loss: $156.13K (6.80% loss rate)** which is equivalent to the percentae of total discount given.
 
 <img width="312" height="50" alt="image" src="https://github.com/user-attachments/assets/3f32fe05-dd29-4a43-b5b3-1f3ccc35b4ae" />
 
